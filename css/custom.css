@@ -88,6 +88,38 @@
 .portfolio-item .caption .caption-content h2 {
   font-size: 1.5rem;
 }
+.little-cacto {
+    position: absolute;
+    width: 10%;
+    top: 0;
+    right: 0;
+}
+
+#orquidario .little-cacto, #medico .little-cacto{
+  top: -70%;
+}
+
+#funcional .little-cacto  {
+  top: -140%;
+}
+#psicologia .little-cacto{
+  width: 17%;
+  top: -30%;
+}
+
+@media (max-width: 992px) {
+  .little-cacto {
+    width: 20%;
+  } 
+  #orquidario .little-cacto, #medico .little-cacto{
+    top: -10%;
+  }
+
+  #psicologia .little-cacto{
+    width: 30%;
+    top: 50%;
+  }
+}
 
 @media (min-width: 992px) {
   .portfolio-item .caption .caption-content {
@@ -104,6 +136,7 @@
     clip-path: inset(1rem);
   }
 }
+
 .social {
   margin-top: 1.5vh;
 }
@@ -233,6 +266,7 @@ table.details tbody th {
 .content-section {
     padding-top: 3rem;
     padding-bottom: 3rem;
+    //height: 100%;
 }
 .text-white .scroll-down {
   border: 2px solid #fff;
@@ -255,8 +289,14 @@ table.details tbody th {
 
 
 .callout {
-  background-image: url("../img/cacto/todos.jpeg");
+  background-image: url("../img/cacto/todos.png");
 }
 
+.mb-5, .my-5 {
+    margin-bottom: 1rem !important;
+}
 
+.img-fluid {
+    width: 100%;
+}
 
